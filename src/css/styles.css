@@ -23,3 +23,148 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+/* ============Timer=========== */
+
+.data-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.start-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-bottom: 32px;
+  transition: background-color 250 linear;
+}
+
+.start-btn:focus,
+.start-btn:hover {
+  background-color: #6c8cff;
+}
+
+.disabled {
+  background-color: #cfcfcf;
+  color: #989898;
+}
+
+.disabled:focus,
+.disabled:hover {
+  background-color: #cfcfcf;
+  color: #989898;
+}
+
+.timer {
+  width: 346px;
+  height: 72px;
+  display: flex;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+/* =========SnackBar======== */
+
+.form {
+  width: 360px;
+}
+
+.form label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form :nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+
+.form :nth-child(1) input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  height: 40px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form fieldset {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  justify-content: center;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  border-color: #808080;
+  border-width: 1px;
+}
+
+.form fieldset label {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.form button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
